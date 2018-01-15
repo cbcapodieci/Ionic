@@ -16,6 +16,7 @@ import { DishdetailPage } from '../dishdetail/dishdetail';
   templateUrl: 'menu.html',
 })
 export class MenuPage implements OnInit {
+  
   dishes: Dish[];
   errMess: string;
 
