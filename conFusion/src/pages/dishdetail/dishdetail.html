@@ -2,7 +2,12 @@
 
   <ion-navbar color="primary">
     <ion-title>Dish Details</ion-title>
-  </ion-navbar>
+    <ion-buttons end>
+      <button ion-button large icon-left clear (click)="presentActionSheet($event)">
+        <ion-icon name="more" color="light" ></ion-icon>
+      </button>
+    </ion-buttons> 
+  </ion-navbar> 
   
 </ion-header>
   
