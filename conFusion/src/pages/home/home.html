@@ -10,6 +10,10 @@
 </ion-header>
 
 <ion-content>
+  <ion-grid>
+  <ion-row align-items-center>
+    <ion-col col-12 col-lg-4>
+  
   <ion-card *ngIf="dish">
     <img src="{{BaseURL + dish.image}}"/>
     <ion-card-content>
@@ -30,6 +34,8 @@
     <h2>Error</h2>
     <h4>{{ dishErrMess }}</h4>
   </div>
+    </ion-col>
+    <ion-col col-12 col-lg-4>
       
   <ion-card *ngIf="promotion">
     <img src="{{BaseURL + promotion.image}}"/>
@@ -51,6 +57,8 @@
     <h2>Error</h2>
     <h4>{{ promoErrMess }}</h4>
   </div>
+    </ion-col>
+    <ion-col col-12 col-lg-4>
     
   <ion-card *ngIf="leader">
     <img src="{{BaseURL + leader.image}}"/>
@@ -75,7 +83,9 @@
     <h2>Error</h2>
     <h4>{{ leaderErrMess }}</h4>
   </div>
-
+    </ion-col>
+  </ion-row>
+  </ion-grid>
   <ion-fab right bottom>
     <button ion-fab color="accent"><ion-icon name="arrow-dropup"></ion-icon></button>
     <ion-fab-list side="top">
