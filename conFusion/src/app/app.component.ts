@@ -11,7 +11,6 @@ import { FavoritesPage } from '../pages/favorites/favorites';
 import { ReservationPage } from '../pages/reservation/reservation';
 import { LoginPage } from '../pages/login/login'; 
 
-
 @Component({
   templateUrl: 'app.html'
 })
