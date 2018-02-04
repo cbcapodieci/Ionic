@@ -24,6 +24,7 @@ import { EmailComposer } from '@ionic-native/email-composer';
 import { SocialSharing } from '@ionic-native/social-sharing';
 import { Camera } from '@ionic-native/camera';
 import { Network } from '@ionic-native/network';
+import { PhotoLibrary } from '@ionic-native/photo-library';
 
 import { DishProvider } from '../providers/dish/dish';
 import { LeaderProvider } from '../providers/leader/leader';
